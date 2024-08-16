@@ -1,0 +1,241 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: "B Yekan", tahoma, Arial;
+}
+
+/* ready classes */
+
+#dir-rtl {
+    direction: rtl;
+}
+
+.flex {
+    display: flex;
+}
+
+.dir-f-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.f-grow-1 {
+    flex-grow: 1;
+}
+
+.f-align-items-center {
+    align-items: center;
+}
+
+.title {
+    font-size: 38px;
+    color: #288ED9;
+    margin-bottom: 5px;
+
+}
+
+.text-p {
+    color: #7E7D7D;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.m-left-50px {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.color-blue {
+    color: #288ED9;
+}
+
+.color-light-blue {
+    color: #289CE4;
+}
+
+.color-gray {
+    color: #999999;
+}
+
+.color-dark-gray {
+    color: #7E7D7D;
+}
+
+.bg-blue {
+    background-color: #288ED9;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+/* -------------------------------- */
+
+.page-cloud-hosting {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+.header-row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    align-items: center;
+}
+
+.menu a {
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+.logo-header {
+    margin-left: 55px;
+}
+
+.description-about-website {
+    width: 100%;
+}
+
+.cloud-hosting-img {
+    width: 60%;
+    margin: 0 50px;
+}
+
+.description-about-website-content {
+    width: 40%;
+}
+
+.regiser-login ul li .sign-in {
+    padding: 2px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.regiser-login ul li .sign-up {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.title-description-text {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.description-text {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.poviding-various-plans {
+    background-image: linear-gradient(to top, #D6EEFF, #FEFFFF);
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+
+.title-poviding-various-plans {
+    text-align: center;
+    font-size: 36px;
+    padding: 60px 0;
+}
+
+
+.box-cloud-host {
+    border: 2px dotted #E3E2E2;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.box-cloud-host h3 {
+    text-align: center;
+    border-radius: 25px;
+    width: 150px;
+    padding: 5px 10px;
+    font-size: 22px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
+.box-cloud-host p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+
+/* main */
+
+.main {
+    padding: 20px 50px;
+    margin: 0 auto;
+}
+
+.img-host {
+    margin: -50px 50px 0px 50px;
+    width: 50%;
+}
+
+article {
+    width: 50%;
+}
+
+.m-bottom-150px {
+    margin-bottom: 150px;
+}
+
+/* footer */
+.contact {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.contact ul li a {
+    font-size: 28px;
+    padding: 0 10px;
+}
+
+.contact p {
+    color: #999999 !important;
+}
